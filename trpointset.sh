@@ -26,7 +26,7 @@ if [ -z "$BASH_VERSION" ]; then
 fi
 }
 
-# function that checks if 'xinput' is installed, if not installs it. Accepts "y", "Y", "n" and "N" as answers
+# function that checks if 'xinput' is installed, if not installs it. 
 
 install_xinput(){
 
