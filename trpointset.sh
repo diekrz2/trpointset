@@ -64,7 +64,7 @@ install_xinput(){
 
 find_id(){
 	
-	local tp_id
+    local tp_id
     tp_id=$(xinput | perl -ne 'if(/TrackPoint.*id=(\d+)/) { print $1; }')
 
     if [ -z "$tp_id" ]; then
@@ -92,7 +92,7 @@ find_id(){
     enable_autostart "$tp_id" "$acc_val"
 }
 
-# Configure the new acceleration to start automatically 
+# Configure the new acceleration to start automatically. Accepts "y", "Y", "n" and "N" as answers
 
 enable_autostart(){
 	
