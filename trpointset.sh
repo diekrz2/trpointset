@@ -26,7 +26,7 @@ if [ -z "$BASH_VERSION" ]; then
 fi
 }
 
-# function that checks if 'xinput' is installed, if not installs it. 
+# function that checks if 'xinput' is installed. If not installed, the installation via apt will start 
 
 install_xinput(){
 
