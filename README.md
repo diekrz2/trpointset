@@ -8,4 +8,4 @@ Designed for Bodhi Linux. This script helps to set TrackPoint acceleration on Le
 
 Download the script and open the terminal in the directory where the script is located. Run it with 'bash trpointset.sh'. 
 
-Tested on ThinkPad L440 with Bodhi Linux 7. 
+Tested on ThinkPad L440 with Bodhi Linux 7 hwe. 
