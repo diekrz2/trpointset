@@ -60,7 +60,7 @@ install_xinput(){
 	fi
 }
 
-# function that finds the 'id' number of your Trackpoint
+# function that finds the 'id' number of your Trackpoint. The id is needed to associate the acceleration with it
 
 find_id(){
 	
