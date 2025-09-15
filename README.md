@@ -1,7 +1,7 @@
 # trpointset
-Script that helps to set the TrackPoint acceleration value on Lenovo ThinkPad keyboards.
+Script to boost the TrackPoint speed on Lenovo ThinkPad keyboards.
 
-Designed for Bodhi Linux. This script helps to set TrackPoint acceleration on Lenovo ThinkPad laptops using the **'xinput'** tool. The script installs **xinput** (if not already installed), finds the TrackPoint id and allows you to enter the desired acceleration value. Finally, the script asks if you want to save the setting so that it takes effect every time you start your computer. 
+Built for Bodhi Linux, this script makes it easy to adjust the TrackPoint acceleration on your Lenovo ThinkPad laptop using the **'xinput'** tool. It will install **xinput** if it’s not already there, find the TrackPoint ID, and let you set your preferred acceleration level. Plus, it’ll ask if you want to save the setting so it applies every time you start your computer.
 
 **Install:**
 ------------
