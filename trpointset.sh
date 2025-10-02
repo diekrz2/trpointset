@@ -78,7 +78,7 @@ find_id(){
     
 	# Ask the user for an acceleration value
 
-    echo "Enter a value between -1.0 and +1.0 (the default value of your TrackPoint is probably 0.0):"
+    echo "Enter a value between -1.0 and +1.0:"
     echo
     read -r acc_val
     echo
